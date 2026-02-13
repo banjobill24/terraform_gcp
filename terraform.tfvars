@@ -1,8 +1,8 @@
-projectid = "lbg-mea-leaders-cXX"
+projectid = "lbg-mea-leaders-c36"
 credentialfile = "lbg-key.json"
-vm_count = 1
-network_name = "firstname-network"
-subnetwork_name = "firstname-subnetwork"
-firewall_name = "firstname-firewall"
-vm_name = "firstname-vm"
-disk_size = 10
+vm_count = 2
+network_name = "phil-network"
+subnetwork_name = "phil-subnetwork"
+firewall_name = "phil-firewall"
+vm_name = "phil-vm"
+disk_size = 20

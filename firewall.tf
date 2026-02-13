@@ -4,11 +4,11 @@ resource "google_compute_firewall" "lbg-firewall" {
   
   allow {
     protocol = "tcp"
-    ports = ["22", "80", "443", "3000", "5000"]
+    ports = ["22", "80", "3000", "5000"]
   }
 
   source_ranges = ["0.0.0.0/0"]
-  target_tags = ["port-22", "http-server", "https-server", "port-3000", "port-5000"]
+  target_tags = ["port-22", "http-server", "port-3000", "port-5000"]
 
   depends_on = [
     google_compute_network.lbg-network
